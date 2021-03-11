@@ -17,7 +17,7 @@ Using MSW with Next.js causes stopping HMR/Fast Refresh because of unclosed SSE 
 1. Start dev server: `yarn dev` .
 1. Open `localhost:3000` in your browser.
 1. Show `Network` tab in DevTools.
-1. Click rendered links, and you will find that SSE connections are not cleared.
+1. Click rendered links, and you will find that SSE connections are not closed.
 1. Reload the page, but it will not complete: `Waiting for available sockets`
 
 Note that HMR works as expected without clicking links.
