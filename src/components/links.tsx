@@ -10,9 +10,6 @@ export function Links(): ReactElement {
       <Link href="/page1">
         <a>page1</a>
       </Link>
-      <Link href="/page1">
-        <a>page1</a>
-      </Link>
       <Link href="/page2">
         <a>page2</a>
       </Link>
