@@ -7,8 +7,8 @@ Using MSW with Next.js causes stopping HMR/Fast Refresh because of unclosed SSE 
 - OS: KDE Neon 5.2.1 (Based on Ubuntu 20.04)
 - Browser: Chromium 89.0.4389.82
 - Node.js: v14.14.0
-- MSW: v0.26.2 (v0.27.1 has a bug: `expires.getTime is not a function` . It may be solved by `@msw/cookies` v0.1.4.)
-- Next.js: 10.0.8
+- MSW: v0.27.2
+- Next.js: 10.0.9
 
 ## Reproduction steps
 
