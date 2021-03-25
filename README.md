@@ -5,9 +5,9 @@ Using MSW with Next.js causes stopping HMR/Fast Refresh because of unclosed SSE 
 ## Tested env
 
 - OS: KDE Neon 5.2.1 (Based on Ubuntu 20.04)
-- Browser: Chromium 89.0.4389.82
+- Browser: Chromium 89.0.4389.90, Firefox 86.0.1
 - Node.js: v14.14.0
-- MSW: v0.27.2
+- MSW: v0.28.0
 - Next.js: 10.0.9
 
 ## Reproduction steps
